@@ -16,7 +16,7 @@ if(process.env.NODE_ENV!="PRODUCTION"){
 app.use(
   cors({
     credentials: true,
-    origin: ['http://localhost:3000','https://shopeeeewebtech.netlify.app/'],
+    origin: ['http://localhost:3000','https://shopeeeewebtech.netlify.app'],
   })
 );
 app.use(express.json());
